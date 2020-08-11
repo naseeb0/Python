@@ -104,6 +104,7 @@ clicks = 0
 
 currentCalc = Calculator('0')
 
+#Top display of calculator
 Entry(calc,font=('arial',20,'bold'),textvariable=text_input,bd=30,insertwidth=4,
     bg='powder blue', justify='right').grid(columnspan=4)
 
