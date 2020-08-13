@@ -1,5 +1,8 @@
+#importing first
 import tkinter as tk 
 from tkinter import ttk
+
+#main GUI begins here
 window = tk
 ttk.Label(text="Choose a number:").grid(column=1, row=0) # 1
 number = tk.StringVar() # 2
